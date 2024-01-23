@@ -10,9 +10,8 @@ h2,
 h3,
 h4,
 h5,
-h6, {
-    margin-top: 0;
-    margin-bottom: 0;
+h6 {
+    margin: 0;
 }
 
 ul {
@@ -32,10 +31,9 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 
-/*===================*/
+/*====================*/
 
 /*==========HEADER==========*/
 
