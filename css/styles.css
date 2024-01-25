@@ -169,6 +169,10 @@ a {
     gap: 24px;
 }
 
+.business-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .business-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -202,12 +206,13 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom: 172px;
+    margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
-    margin: 24px;
+    justify-content: space-around;
+    gap: 24px;
 }
 
 .team-item {
@@ -221,6 +226,7 @@ a {
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
+    padding-top: 32px;
 }
 
 .team-subtitle-text {
@@ -248,6 +254,11 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .portfolio-subtitle {
