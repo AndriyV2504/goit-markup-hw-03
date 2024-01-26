@@ -185,8 +185,7 @@ a {
 
 .business {
     background-color: #FFF;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 120px 0;
 }
 
 .business-list {
